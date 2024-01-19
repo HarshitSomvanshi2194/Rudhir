@@ -51,6 +51,62 @@ header {
   margin-bottom: 10px;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.card {
+  max-width: 200px;
+  /* max-height: 350px;  */
+  /* margin: 20px auto; */
+  margin-bottom: 200px;
+  background-color: #fff;
+  border-radius: 18px;
+  /* overflow: hidden; */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  padding: 20px;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.card-content .price{
+  display: flex;
+}
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 200px;
+}
+
+
+.order-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #e44d26;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
 #nav {
   width: 90%;
   color: black;
